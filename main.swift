@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  Sample
+//  
 //
 //  Created by Anuraag Jain on 31/07/16.
 //  Copyright © 2016 Anuraag Jain. All rights reserved.
