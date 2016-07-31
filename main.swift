@@ -13,8 +13,8 @@ while(noCases > 0 ){
     var getValue =  readLine()!
     do{
         let checkReg = try NSRegularExpression(pattern: "(21)|2([0-9]*)1", options: .CaseInsensitive)
-        if checkReg.firstMatchInString(getValue, options: .ReportCompletion, range: NSMakeRange(0, getValue.characters.count)) != nil {
-            checkReg.pattern
+        if checkReg.firstMatchInString(getValue, options: .ReportCompletion, range: NSMakeRange(0, getValue.characters.count)) != nil || (Int(getValue)!%21 == 0 ) {
+            //checkReg.pattern 
             print("The streak is broken!")
         }
         else{
